@@ -1,0 +1,126 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    /* height: 100vh; */
+    font-family: 'Bowlby One', cursive;
+}
+
+#particles-js{
+    height: 100vh;
+    background:url("blue.jpeg");
+    background-size: cover;
+   background-position: center;
+}
+
+
+.box1{
+     margin-top: 13.0%;
+    margin-left: 12%!important; 
+     
+    position: absolute;
+}
+
+
+#text{
+    font-size: 60.0px;
+    font-family: 'Bowlby One', cursive;
+    font-weight: bold;
+    text-shadow: 0px 0px 15px black;
+    color: gold;
+    letter-spacing: 3px;
+     animation-name: anim1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite; 
+}
+.box2{
+    margin-top: 6.0%;
+    margin-left: 18.0%; 
+    position: fixed;
+
+}
+
+
+
+
+.btn1{
+    padding: 30px 80px;
+    border-radius: 12px;
+    border: none;
+    font-size: 29px;
+    font-family: 'Bowlby One', cursive;
+box-shadow: 0px 0px 10px black;
+   background:  gold;
+   /* background: linear-gradient(90deg ,#03a9f4,#f441a5,#ffeb3b,#03a9f4); */
+}
+
+.btn2{
+    padding: 30px 61.0px;
+    border-radius: 12px;
+    border: none;
+    font-size: 29px;
+    font-family: 'Bowlby One', cursive;
+    background: silver;
+    box-shadow: 0px 0px 10px black;
+
+}
+
+
+
+
+
+
+
+#text:hover{
+
+
+}
+
+@keyframes anim1{
+    0%{
+        /* color:#69e00d; */
+        color:orange;
+    }
+
+    25%{
+        /* color:#30dbbc; */
+        color: greenyellow;
+    }
+
+    50%{
+        /* color:#fdff82; */
+        color:hotpink;
+    }
+
+    75%{
+        /* color:#547dbf; */
+        color: aquamarine;
+    }
+
+
+    100%{
+        color:#f5b171
+    }
+
+
+
+}
+
+
+.a1, .a2{
+color: black;
+text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
